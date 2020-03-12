@@ -23,4 +23,10 @@ public class Rectangle {
     public int getLength(){ return length;}
     public int getWidth(){return width;}
     public String getColor(){return color;}
+    public int getPerimeter(){return 2*length+2*width;}
+    public int getArea(){return length*width;}
+
+    public  String toString(){
+        return "Rectangle: length="+length+" width="+width+" color="+color+" Perimeter="+getPerimeter()+" Area="+getArea()+"";
+    }
 }
