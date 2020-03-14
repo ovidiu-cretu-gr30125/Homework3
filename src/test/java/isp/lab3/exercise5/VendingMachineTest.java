@@ -7,9 +7,8 @@ public class VendingMachineTest {
     VendingMachine V2 = new VendingMachine(5);
     @Test
     public void displayProducts(){
-        String testproduct="";
-       /// testproduct=V2.displayProducts();
-       /// assertEquals("Product Empty have id 0 ,price 0 and there are 0 of this product","Product Empty have id 1 ,price 0 and there are 0 of this product",testproduct);
+       /// assertEquals("Product Empty have id 0 ,price 0 and there are 0 of this product","Product Empty have id 1 ,price 0 and there are 0 of this product",V2.displayProducts());
+        ///i do not know how to test a void method
     }
     @Test
     public void insertCoinTest(){
