@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Exercise5 {
     public static void main(String[] args) {
         VendingMachine V1 = new VendingMachine(5);
-        V1.displayProducts();
         System.out.println("Hello! Please introduce the 4 digit code to access the menu or press 0 to buy a product.");
         Scanner in = new Scanner(System.in);
         int code = in.nextInt();

@@ -35,8 +35,9 @@ public class VendingMachine {
             }
     }
     public void  displayProducts(){
-        for(int i=0;i<totalNumberOfProducts;i++)
-             System.out.println("Product " + Products[i] + " have id " + i + " ,price " + price[i] + "");
+        for(int i=0;i<totalNumberOfProducts;i++) {
+            System.out.println("Product " + Products[i] + " have id " + i + " ,price " + price[i]);
+        }
     }
     public void adminMenu(){
         System.out.println("Welcome Admin!");
